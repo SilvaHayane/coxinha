@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Baloo Tammudu', cursive;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+header img{
+    width: 6vw;
+    margin-right: 10px;
+    padding: 24px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    margin-left: 15px;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h2, .text p{
+    padding: 10px;
+    margin: 20px 10px 0px 10px; /* top  right bottom left */
+    color: #395c93;
+}
+
+.text p{
+    font-weight: bolder;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.receita{
+    font-size: 11pt;
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
